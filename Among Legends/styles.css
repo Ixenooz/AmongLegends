@@ -1,0 +1,113 @@
+/* Réinitialisation des marges et des paddings par défaut du navigateur */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Akira Expanded';
+    src: url('Akira\ Expanded\ Demo.otf') format('otf');
+    font-family: "Montserrat";
+    src: url("Montserrat-VariableFont_wght.ttf") format("ttf");
+}
+
+
+/* Styles de la bannière */
+header {
+    color: #fff; /* Couleur du texte sur la bannière (blanc ici) */
+}
+
+.banner {
+    background: linear-gradient(to right, #000033, #0b0049, #000025);
+    padding: 3%; /* Espacement interne de la bannière */
+    text-align: center; /* Centrer le contenu de la bannière horizontalement */
+    position: relative; /* Position relative pour le positionnement du bouton */
+}
+
+/* Styles pour le bouton "Règles" */
+/* Styles pour le bouton "Règles" */
+.rules-button {
+    background-color: #fff; /* Fond blanc */
+    color: #000033; /* Texte bleu foncé */
+    padding: 10px 10px; /* Espacement interne du bouton */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    border-radius: 10px; /* Coins arrondis */
+    font-weight: bold; /* Texte en gras */
+    transition: background-color 0.3s, color 0.3s; /* Animation de transition */
+    position: absolute; /* Position absolue par rapport au parent (.banner) */
+    top: 28%; /* Distance depuis le haut (15% de la hauteur de .banner) */
+    bottom: 28%;
+    right: 10%; /* Distance depuis la droite (5% de la largeur de .banner) */
+    width: 10%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.text-regles {
+    font-family: "Akira Expanded", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    font-size: 1.2rem;
+    top : 32%;
+    left : 30%;
+    
+
+}
+
+/* Styles pour la gauche de l'image transparente */
+.among-legends-banner {
+    position: absolute; /* Position absolue par rapport à la bannière (.banner) */
+    top: 32%; /* Centrer verticalement */
+    left: 5%; /* Distance depuis la gauche (ajustez selon vos besoins) */
+    width: 35%; /* Largeur de l'image transparente (ajustez selon vos besoins) */
+    height: 35%; /* Hauteur de l'image transparente (ajustez selon vos besoins) */
+}
+
+.video-pres{
+    float : left;
+    display: flex;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.create-lobby-button {
+    float: right;
+    margin-right: 18%;
+    margin-top: 32%;
+    background: linear-gradient(to right, #000033, #0b0049, #000025);
+    color: #fff; /* Texte blanc */
+    padding: 25px 25px; /* Espacement interne du bouton */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    border-radius: 15px; /* Coins arrondis */
+    font-weight: bold; /* Texte en gras */
+    font-family: "Akira Expanded", sans-serif;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+    font-size: 135%;
+    text-shadow: 1px 2px 7px #000000;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+
+/* Styles pour le pied de page coloré */
+.footer {
+    padding: 30px 5px;
+    background: linear-gradient(to right, #000033, #0b0049, #000025);
+    margin-top: 1000px;
+    color: #fff;
+    font-size: 120%;
+}
+
+.about-us {
+    margin-left: 2%;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.paragraphe1 {
+    margin-bottom: 20px;
+}
